@@ -1,0 +1,67 @@
+﻿  Preprocessing: kernel.cl
+  Ignoring -TARGETOS option - not supported for 64-bit version of this tool 
+  
+  Using build options:  -I "C:\Users\tomke\Desktop\OpenCL-Tutorials-master\parallelproject"
+  Platform name: Intel(R) OpenCL
+  Device name: Intel(R) HD Graphics 515
+  Device version: OpenCL 2.1 NEO 
+  Device vendor: Intel(R) Corporation
+  Device profile: FULL_PROFILE
+  
+  scan_add_atomic info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 32
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 0
+  
+  histogram info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 32
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 0
+  
+  scan_hs info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 16
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 0
+  
+  scan_add info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 32
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 0
+  
+  normalisationBins info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 32
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 0
+  
+  lut info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 32
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 0
+  
+  Build succeeded!
+  
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Source.cpp
+C:\Users\tomke\Desktop\OpenCL-Tutorials-master\parallelproject\Source.cpp(96,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tomke\Desktop\OpenCL-Tutorials-master\parallelproject\Source.cpp(67,26): warning C4101: 'err': unreferenced local variable
+  parallelproject.vcxproj -> C:\Users\tomke\Desktop\OpenCL-Tutorials-master\x64\Debug\parallelproject.exe
+  kernel.cl
+          1 file(s) copied.
